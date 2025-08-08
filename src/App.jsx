@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
+import Contact from "./Contact";
 import Footer from "./Footer";
 function App() {
   const navLinks = [
@@ -15,7 +16,7 @@ function App() {
        <main className="w-screen ">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<h2>Contact Page</h2>} />
+          <Route path="/contact" element={<Contact />} />
           
         </Routes>
       </main> 
